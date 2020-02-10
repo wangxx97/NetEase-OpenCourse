@@ -1,0 +1,160 @@
+.import {
+    /*width: 1180px;*/
+    /*margin: 0 auto;*/
+    margin-top: 70px;
+    height: 1440px;
+    /*border: 1px solid seagreen;*/
+}
+
+.import-box1,
+.import-box2{
+    margin: 0 auto;
+    /*border: 1px solid blue;*/
+    width: 1180px;
+    height: 694px;
+}
+
+.import-box2{
+    margin-top: 50px;
+}
+
+.text {
+    /*border: 1px solid red;*/
+    text-align: left;
+    height: 36px;
+    /*font-size: 24px !important;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text > .p1 {
+    font-size: 24px !important;
+    width: 96px;
+    height: 27px;
+    /*border: 1px solid slateblue;*/
+    margin-top: 0;
+}
+
+.text > .p2 {
+    line-height: 36px;
+    width: 70px;
+    height: 27px;
+    /*border: 1px solid slateblue;*/
+    margin-top: 0;
+    color: #999;
+    /*float: right;*/
+}
+
+.text > .p2:hover {
+    cursor: pointer;
+}
+
+.Class {
+    /*border: 1px solid crimson;*/
+    width: 1180px;
+    height: 653px;
+}
+
+
+.up {
+    margin-top: 20px;
+    /*border: 1px solid hotpink;*/
+    width: 1180px;
+    height: 295px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.down {
+    margin-top: 42px;
+    /*border: 1px solid hotpink;*/
+    width: 1180px;
+    height: 295px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Class1 {
+    /*border: 1px solid darkgreen;*/
+    width: 270px;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.5px 2px #999;
+    border-radius: 2px;
+    background: white;
+    /*overflow 属性规定当内容溢出元素框时发生的事情。*/
+    overflow: hidden; /*这个一定要加上  不然就不是外框不变里面变大了*/
+}
+
+.Class1:hover {
+    box-shadow: 0 0 9px 3px #999;
+    /*transform: scale(1.1);*/
+}
+
+.Class1 > img {
+    width: 270px;
+    height: 150px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.Class1 > img:hover {
+    transform: scale(1.2);
+}
+
+
+.text1 {
+    /*border: 1px solid hotpink;*/
+    width: 250px;
+    height: 42px;
+    text-align: left;
+    max-height: 42px;
+    font-size: 18px;
+    line-height: 1.25;
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    color: #333;
+    margin: 13px auto 0;
+}
+
+.text2 {
+    /*border: 1px solid hotpink;*/
+    margin: .75em auto 0;
+    width: 250px;
+    height: 18px;
+    color: #999;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    overflow: hidden; /*???*/
+    white-space: nowrap; /*???*/
+    text-overflow: ellipsis; /*???*/
+}
+
+.money {
+    /*border: 1px solid hotpink;*/
+    margin: 23px auto 0;
+    width: 250px;
+    height: 24px;
+    /*padding: 0 .25em;*/
+    text-align: left;
+
+}
+
+.money-a1 {
+    color: #f00;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.money-a2 {
+    color: #999;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: line-through;
+}
